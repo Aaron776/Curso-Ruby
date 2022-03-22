@@ -19,8 +19,15 @@ def sumar (numero1,numero2,nombre)
 end
 
 
+#Retorno en una funcion: un return devuleve un valor de una operacion o accion que estamos haciendo
+def multiplicacion(num1,num2)
+    resultado = num1*num2
+    return resultado 
+end
+
 
 # Una vez definida la funcion debemos llamarla para que se ejecute en pantalla
 saludar # para llamar a una funcion solo basta con poner su nombre 
 despedir 
 sumar(5,7,"Patricio") # cuando creamos una funcion argumentos al momento de llamar a esa funcion debemos poner en los parentesis los varlores de esos argumentos o parametros
+puts("La multiplicacion de los numeros es: ",multiplicacion(7,9)) # cuando una funcion tiene un retorno el avlor no se mostrara a menos que usemos un metodo para imprimir en pantalla o consola, o podemos guardar en una variable e imprimir esa variable
