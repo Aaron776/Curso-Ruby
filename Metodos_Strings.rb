@@ -31,3 +31,15 @@ puts oracion3.include?("hola")
 #Metodo gsub!(""): este metodo permite cambiar una plabara  o un strinf de una oracion o cadena de stringgs por otra palabra u otro string, en el parentesis ponsmos dos argumentos entre comillas el primero es la plabara que querremos cambiar y el otro ponemos la palabra por la que vamks a cambiar
 clima="Esta haciendo mucho frio"
 puts clima.gsub!("frio", "calor")
+
+#Metodo .reverse: este metodo te devuelve una cadena de string escrito al reves
+voltear="Patricio"
+puts voltear.reverse
+
+#Metodo .swapcase: este metodo permite tranformar todoa las letras mayuscaulas en minusculas y las minusculas en mayusculas de una cadena de string
+transformar="HoLa"
+puts transformar.swapcase
+
+#Metodo .slice(): este metodo nos va asolictar dos parametros que son el indice inicial y el final de la letra de una cadena para poder dividir esa cadenas, en otras palabras este metodo permite cortar una parte de una cadena de strings
+division="Jesucristo"
+puts division.slice(0,4)
