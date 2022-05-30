@@ -17,7 +17,7 @@ class Automovil
     
         # Metodos
     def arracar(self)
-        puts "El auto arranco hace mucho tiempo" # la palabara self indica que vamos a utilizar los atributos de la clase
+        puts "El auto de color #{@color} arranco hace mucho tiempo" # la palabara self indica que vamos a utilizar los atributos de la clase
     end 
 end
 
